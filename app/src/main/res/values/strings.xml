@@ -1,3 +1,23 @@
 <resources>
     <string name="app_name">MarketMe</string>
+
+    <!-- Main fragment -->
+    <string name="string_clients">Clients</string>
+    <string name="string_settings">Settings</string>
+    <string name="string_broadcast">Broadcast</string>
+    <string name="string_survey">Survey</string>
+    <string name="string_voicemessage">Voice Message</string>
+    <string name="string_voicesurvey">Voice Survey</string>
+    <string name="string_email">Email Broadcast</string>
+    <string name="string_socialmedia">Social Media</string>
+
+    <!-- Broadcast fragment -->
+    <string name="string_add_broadcast">Add Broadcast</string>
+
+    <!-- Add Message fragment -->
+    <string name="message_title">Message Title</string>
+    <string name="message_body">Message Body</string>
+    <string name="response_required">Response Required</string>
+    <string name="save_message">Save</string>
+    <string name="cancel_message">Back</string>
 </resources>

@@ -4,4 +4,95 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
+    <!-- Options -->
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- First set of options -->
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!-- Clients -->
+            <Button
+                android:id="@+id/btn_clients"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/string_clients" />
+
+            <!-- Settings -->
+            <Button
+                android:id="@+id/btn_settings"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/string_settings" />
+
+        </TableRow>
+
+        <!-- Second set of options -->
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!-- Send a broadcast -->
+            <Button
+                android:id="@+id/btn_broadcast"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/string_broadcast" />
+
+            <!-- Send a survey -->
+            <Button
+                android:id="@+id/btn_survey"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/string_survey" />
+
+        </TableRow>
+
+        <!-- Third set of options -->
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!-- Send a general voice message -->
+            <Button
+                android:id="@+id/btn_voicemessage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/string_voicemessage" />
+
+            <!-- Send a general voice survey -->
+            <Button
+                android:id="@+id/btn_voicesurvey"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/string_voicesurvey" />
+
+        </TableRow>
+
+        <!-- Fourth set of options -->
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <!-- Send a general email -->
+            <Button
+                android:id="@+id/btn_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/string_email" />
+
+            <!-- Send up social media -->
+            <Button
+                android:id="@+id/btn_socialmedia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/string_socialmedia" />
+
+        </TableRow>
+
+    </TableLayout>
+
 </LinearLayout>
